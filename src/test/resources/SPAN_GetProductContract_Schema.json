@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "contract": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "instrumentType": {
+              "type": "string",
+              "minLength": 1
+            },
+            "lotSize": {
+              "type": "integer",
+              "minLength": 1
+            },
+            "symbol": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "instrumentType",
+            "lotSize",
+            "symbol"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "contract"
+  ]
+}

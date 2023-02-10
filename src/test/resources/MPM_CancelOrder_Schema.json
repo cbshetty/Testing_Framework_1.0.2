@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "accountId": {
+      "type": "string"
+    },
+    "orderId": {
+      "type": "integer"
+    },
+    "orderStatus": {
+      "type": "string"
+    },
+    "cancellationReason": {
+      "type": "string"
+    },
+    "cancellationType": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "accountId",
+    "orderId",
+    "orderStatus",
+    "cancellationReason",
+    "cancellationType"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "margin": {
+      "type": "object",
+      "properties": {
+        "netPremium": {
+          "type": "integer"
+        },
+        "SPANMargin": {
+          "type": "number"
+        },
+        "exposureMargin": {
+          "type": "number"
+        },
+        "totalMargin": {
+          "type": "number"
+        },
+        "marginBenefit": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "netPremium",
+        "SPANMargin",
+        "exposureMargin",
+        "totalMargin",
+        "marginBenefit"
+      ]
+    },
+    "totalPositionMargin": {
+      "type": "number"
+    },
+    "positionMargin": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "exchange": {
+              "type": "string"
+            },
+            "contract": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "strikePrice": {
+              "type": "string"
+            },
+            "qty": {
+              "type": "integer"
+            },
+            "instrumentType": {
+              "type": "string"
+            },
+            "tradeType": {
+              "type": "string"
+            },
+            "optionType": {
+              "type": "string"
+            },
+            "SPANMargin": {
+              "type": "number"
+            },
+            "exposureMargin": {
+              "type": "number"
+            },
+            "totalMargin": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "exchange",
+            "contract",
+            "product",
+            "strikePrice",
+            "instrumentType",
+            "tradeType",
+            "SPANMargin",
+            "exposureMargin",
+            "totalMargin"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "margin",
+    "totalPositionMargin",
+    "positionMargin"
+  ]
+}

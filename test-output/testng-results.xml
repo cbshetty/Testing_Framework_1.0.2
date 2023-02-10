@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="42" passed="42">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26385" started-at="2023-02-10T11:37:15Z" finished-at="2023-02-10T11:37:41Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="26385" started-at="2023-02-10T11:37:15Z" finished-at="2023-02-10T11:37:41Z">
+      <class name="parallel.ParallelTestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="setUpClass" is-config="true" duration-ms="355" started-at="2023-02-10T11:37:15Z" finished-at="2023-02-10T11:37:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="setup" is-config="true" duration-ms="76" started-at="2023-02-10T11:37:15Z" finished-at="2023-02-10T11:37:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="16" started-at="2023-02-10T11:37:15Z" finished-at="2023-02-10T11:37:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="16" started-at="2023-02-10T11:37:15Z" finished-at="2023-02-10T11:37:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="16" started-at="2023-02-10T11:37:15Z" finished-at="2023-02-10T11:37:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="16" started-at="2023-02-10T11:37:15Z" finished-at="2023-02-10T11:37:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="16" started-at="2023-02-10T11:37:15Z" finished-at="2023-02-10T11:37:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="16" started-at="2023-02-10T11:37:15Z" finished-at="2023-02-10T11:37:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="16" started-at="2023-02-10T11:37:15Z" finished-at="2023-02-10T11:37:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="16" started-at="2023-02-10T11:37:15Z" finished-at="2023-02-10T11:37:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="16" started-at="2023-02-10T11:37:15Z" finished-at="2023-02-10T11:37:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="16" started-at="2023-02-10T11:37:15Z" finished-at="2023-02-10T11:37:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="16165" started-at="2023-02-10T11:37:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetExchangeProduct_TC02 : Span Calculator Get Exchange Product API - Validate API response with Valid Exchange"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="16164" started-at="2023-02-10T11:37:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetExchangeProduct_TC01 : Span Calculator Get Exchange Product API - Validate API response with Valid Exchange"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="14392" started-at="2023-02-10T11:37:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test Data Setup for Span Calculator tests"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Data Setup for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="16126" started-at="2023-02-10T11:37:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetExchangeProduct_TC04 : Span Calculator Get Exchange Product API - Validate API response with Invalid Exchange"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="16182" started-at="2023-02-10T11:37:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetExchangeProduct_TC03 : Span Calculator Get Exchange Product API - Validate API response with Valid Exchange"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="16111" started-at="2023-02-10T11:37:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetProductContract_TC01 : Span Calculator Get Product Contract API - Validate API response with Valid Exchange and Product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="16096" started-at="2023-02-10T11:37:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetExchange_TC01 : Span Calculator Get Exchange API - Validate API response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="16102" started-at="2023-02-10T11:37:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetProductContract_TC04 : Span Calculator Get Product Contract API - Validate API response with Valid Exchange and Product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="16165" started-at="2023-02-10T11:37:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetProductContract_TC03 : Span Calculator Get Product Contract API - Validate API response with Valid Exchange and Product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="16119" started-at="2023-02-10T11:37:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetProductContract_TC02 : Span Calculator Get Product Contract API - Validate API response with Valid Exchange and Product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:30Z" finished-at="2023-02-10T11:37:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="1734" started-at="2023-02-10T11:37:30Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetProductContract_TC05 : Span Calculator Get Product Contract API - Validate API response with Valid Exchange and Product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:30Z" finished-at="2023-02-10T11:37:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="1" started-at="2023-02-10T11:37:31Z" finished-at="2023-02-10T11:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:31Z" finished-at="2023-02-10T11:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="1684" started-at="2023-02-10T11:37:31Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetProductContract_TC06 : Span Calculator Get Product Contract API - Validate API response with Valid Exchange and Product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:31Z" finished-at="2023-02-10T11:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="1991" started-at="2023-02-10T11:37:31Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetProductContract_TC07 : Span Calculator Get Product Contract API - Validate API response with invalid exchange name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:31Z" finished-at="2023-02-10T11:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:31Z" finished-at="2023-02-10T11:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="1" started-at="2023-02-10T11:37:31Z" finished-at="2023-02-10T11:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="1908" started-at="2023-02-10T11:37:31Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetProductContract_TC08 : Span Calculator Get Product Contract API - Validate API response with invalid product name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="1948" started-at="2023-02-10T11:37:31Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetStrikePrice_TC01 : Span Calculator Get Strike Price API - Validate API response with Valid Exchange and Product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:31Z" finished-at="2023-02-10T11:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:31Z" finished-at="2023-02-10T11:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="1869" started-at="2023-02-10T11:37:31Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetStrikePrice_TC02 : Span Calculator Get Strike Price API - Validate API response with Valid Exchange and Product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="1638" started-at="2023-02-10T11:37:31Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetStrikePrice_TC03 : Span Calculator Get Strike Price API - Validate API response with Valid Exchange and Product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:31Z" finished-at="2023-02-10T11:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:31Z" finished-at="2023-02-10T11:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:31Z" finished-at="2023-02-10T11:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:31Z" finished-at="2023-02-10T11:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:32Z" finished-at="2023-02-10T11:37:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:32Z" finished-at="2023-02-10T11:37:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="1690" started-at="2023-02-10T11:37:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetStrikePrice_TC04 : Span Calculator Get Strike Price API - Validate API response with Valid Exchange and Product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:32Z" finished-at="2023-02-10T11:37:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:32Z" finished-at="2023-02-10T11:37:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="1632" started-at="2023-02-10T11:37:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetStrikePrice_TC05 : Span Calculator Get Strike Price API - Validate API response with Valid Exchange and Product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:32Z" finished-at="2023-02-10T11:37:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="2" started-at="2023-02-10T11:37:32Z" finished-at="2023-02-10T11:37:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="1769" started-at="2023-02-10T11:37:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetStrikePrice_TC06 : Span Calculator Get Strike Price API - Validate API response with Valid Exchange and Product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="1" started-at="2023-02-10T11:37:32Z" finished-at="2023-02-10T11:37:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:32Z" finished-at="2023-02-10T11:37:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="1753" started-at="2023-02-10T11:37:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetStrikePrice_TC07 : Span Calculator Get Strike Price API - Validate API response with invalid exchange name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="581" started-at="2023-02-10T11:37:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetStrikePrice_TC08 : Span Calculator Get Strike Price API - Validate API response with invalid product name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:33Z" finished-at="2023-02-10T11:37:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:33Z" finished-at="2023-02-10T11:37:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:33Z" finished-at="2023-02-10T11:37:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="621" started-at="2023-02-10T11:37:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetStrikePrice_TC09 : Span Calculator Get Strike Price API - Validate API response with invalid option type"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:33Z" finished-at="2023-02-10T11:37:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="1" started-at="2023-02-10T11:37:33Z" finished-at="2023-02-10T11:37:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:33Z" finished-at="2023-02-10T11:37:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="643" started-at="2023-02-10T11:37:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetStrikePrice_TC10 : Span Calculator Get Strike Price API - Validate API response with invalid symbol name(correct format)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:33Z" finished-at="2023-02-10T11:37:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="1" started-at="2023-02-10T11:37:33Z" finished-at="2023-02-10T11:37:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="764" started-at="2023-02-10T11:37:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetStrikePrice_TC11 : Span Calculator Get Strike Price API - Validate API response with invalid symbol name(incorrect format)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="1" started-at="2023-02-10T11:37:33Z" finished-at="2023-02-10T11:37:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:33Z" finished-at="2023-02-10T11:37:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="469" started-at="2023-02-10T11:37:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetStrikePrice_TC12 : Span Calculator Get Strike Price API - Validate API response for FUTURE"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:33Z" finished-at="2023-02-10T11:37:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="2330" started-at="2023-02-10T11:37:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MarginCalculator_TC01 : Span Calculator Margin Calculator API - Validate API response for Single Future Position"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:33Z" finished-at="2023-02-10T11:37:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:33Z" finished-at="2023-02-10T11:37:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="1" started-at="2023-02-10T11:37:33Z" finished-at="2023-02-10T11:37:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="1046" started-at="2023-02-10T11:37:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MarginCalculator_TC02 : Span Calculator Margin Calculator API - Validate API response for Single Option Position"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:33Z" finished-at="2023-02-10T11:37:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:33Z" finished-at="2023-02-10T11:37:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="1211" started-at="2023-02-10T11:37:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MarginCalculator_TC03 : Span Calculator Margin Calculator API - Validate API response for Multiple Future Positions"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:33Z" finished-at="2023-02-10T11:37:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="1" started-at="2023-02-10T11:37:33Z" finished-at="2023-02-10T11:37:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="2288" started-at="2023-02-10T11:37:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MarginCalculator_TC04 : Span Calculator Margin Calculator API - Validate API response for Multiple Option Position"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:33Z" finished-at="2023-02-10T11:37:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="1" started-at="2023-02-10T11:37:33Z" finished-at="2023-02-10T11:37:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="874" started-at="2023-02-10T11:37:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MarginCalculator_TC05 : Span Calculator Margin Calculator API - Validate API response for Both Future and Option positions"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:34Z" finished-at="2023-02-10T11:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="648" started-at="2023-02-10T11:37:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MarginCalculator_TC06 : Span Calculator Margin Calculator API - Validate API response for Invalid Exchange"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:34Z" finished-at="2023-02-10T11:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:34Z" finished-at="2023-02-10T11:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:34Z" finished-at="2023-02-10T11:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="1844" started-at="2023-02-10T11:37:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MarginCalculator_TC07 : Span Calculator Margin Calculator API - Validate API response for Invalid Product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="728" started-at="2023-02-10T11:37:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MarginCalculator_TC08 : Span Calculator Margin Calculator API - Validate API response for Invalid Option Type"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:34Z" finished-at="2023-02-10T11:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:34Z" finished-at="2023-02-10T11:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="1" started-at="2023-02-10T11:37:34Z" finished-at="2023-02-10T11:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:34Z" finished-at="2023-02-10T11:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="650" started-at="2023-02-10T11:37:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MarginCalculator_TC09 : Span Calculator Margin Calculator API - Validate API response for Invalid Symbol"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="1" started-at="2023-02-10T11:37:34Z" finished-at="2023-02-10T11:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="1" started-at="2023-02-10T11:37:34Z" finished-at="2023-02-10T11:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="1771" started-at="2023-02-10T11:37:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MarginCalculator_TC10 : Span Calculator Margin Calculator API - Validate API response for Invalid Trade Type"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:34Z" finished-at="2023-02-10T11:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:34Z" finished-at="2023-02-10T11:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="1561" started-at="2023-02-10T11:37:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MarginCalculator_TC11 : Span Calculator Margin Calculator API - Validate API response for Invalid Strike Price(0)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="1" started-at="2023-02-10T11:37:34Z" finished-at="2023-02-10T11:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:34Z" finished-at="2023-02-10T11:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="1486" started-at="2023-02-10T11:37:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MarginCalculator_TC12 : Span Calculator Margin Calculator API - Validate API response for Invalid Strike Price"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="1579" started-at="2023-02-10T11:37:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MarginCalculator_TC13 : Span Calculator Margin Calculator API - Validate API response for Quantity equal to 0"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:34Z" finished-at="2023-02-10T11:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:34Z" finished-at="2023-02-10T11:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:34Z" finished-at="2023-02-10T11:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="1536" started-at="2023-02-10T11:37:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MarginCalculator_TC14 : Span Calculator Margin Calculator API - Validate Margin for Option Buy Call Position(All Exchanges)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:34Z" finished-at="2023-02-10T11:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:34Z" finished-at="2023-02-10T11:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="1546" started-at="2023-02-10T11:37:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MarginCalculator_TC15 : Span Calculator Margin Calculator API - Validate Margin for Option Buy Put Position(All Exchanges)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:34Z" finished-at="2023-02-10T11:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="runScenario" duration-ms="1497" started-at="2023-02-10T11:37:35Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-10T11:37:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetAppState_TC01 : Span Calculator Get App State Calculator API - Validate API response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the API Contracts for SPAN Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:35Z" finished-at="2023-02-10T11:37:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioSetup()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioSetup" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:35Z" finished-at="2023-02-10T11:37:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioSetup -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="1" started-at="2023-02-10T11:37:36Z" finished-at="2023-02-10T11:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:36Z" finished-at="2023-02-10T11:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:36Z" finished-at="2023-02-10T11:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:36Z" finished-at="2023-02-10T11:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:36Z" finished-at="2023-02-10T11:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="1" started-at="2023-02-10T11:37:36Z" finished-at="2023-02-10T11:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:36Z" finished-at="2023-02-10T11:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:36Z" finished-at="2023-02-10T11:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:36Z" finished-at="2023-02-10T11:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="ScenarioTearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="ScenarioTearDown" is-config="true" duration-ms="0" started-at="2023-02-10T11:37:36Z" finished-at="2023-02-10T11:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioTearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="tearDown" is-config="true" duration-ms="4247" started-at="2023-02-10T11:37:36Z" finished-at="2023-02-10T11:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:parallel.ParallelTestRunner@2b2948e2]" name="tearDownClass" is-config="true" duration-ms="950" started-at="2023-02-10T11:37:40Z" finished-at="2023-02-10T11:37:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- parallel.ParallelTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
